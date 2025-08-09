@@ -7,8 +7,6 @@ rm -f /etc/init.d/homebridge
 rm -f /usr/lib/lua/luci/controller/homebridge.lua
 rm -rf /usr/lib/lua/luci/view/homebridge
 
-# Optional: Remove the main menu file if it was created by an older script version
-rm -f /usr/lib/lua/luci/controller/peditxos.lua
 
 # Uninstall npm packages
 echo "Uninstalling npm packages..."
